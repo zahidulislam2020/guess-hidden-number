@@ -1,90 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container {
-    border: 2px solid blue;
-    width: 550px;
-    margin: 50px auto 0;
-    padding: 20px;
-    position: relative;
+  border: 2px solid blue;
+  width: 550px;
+  margin: 50px auto;
+  padding: 30px 10px;
+  position: relative;
 }
 
 #rndNum {
-    display: inline-block;
-    margin-left: 10px;
-    color: #000;
-    background: transparent;
-    text-align: center;
-    width: 70px;
-    height: 60px;
-    line-height: 60px;
-    font-size: 50px;
-    font-weight: bold;
-    margin-top: 20px;
+  display: inline-block;
+  margin-left: 10px;
+  color: #000;
+  background: transparent;
+  text-align: center;
+  width: 70px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 #showrnd {
-    padding: 5px 10px;
-    /* margin-left: 20px; */
-    font-size: 16px;
+  padding: 5px 10px;
+  /* margin-left: 20px; */
+  font-size: 16px;
 }
 
 .customTime {
-    margin-left: 5px;
-    font-size: 18px;
+  margin-left: 5px;
+  font-size: 18px;
 }
 
 .setTimer {
-    width: 38px;
-    margin-left: 5px;
-    font-size: 20px;
-    padding-left: 5px;
+  width: 50px;
+  margin-left: 5px;
+  font-size: 20px;
+  padding-left: 5px;
 }
 
 .timeUp {
-    font-size: 40px;
-    color: red;
-    position: absolute;
-    top: 44%;
-    left: 70%;
-    font-weight: bold;
-    display: none;
+  font-size: 40px;
+  color: red;
+  position: absolute;
+  top: 44%;
+  left: 70%;
+  font-weight: bold;
+  display: none;
 }
 
 #displayComment {
-    color: white;
-    background-color: darkblue;
-    width: 510px;
-    height: 60px;
-    font-size: 20px;
-    padding: 10px;
-    text-align: center;
-    line-height: 60px;
-    margin: 15px auto;
+  color: white;
+  background-color: darkblue;
+  width: 510px;
+  height: 60px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  line-height: 60px;
+  margin: 15px auto;
 }
 
 .timeCount {
-    font-size: 35px;
-    color: darkred;
-    font-weight: bold;
+  font-size: 35px;
+  color: darkred;
+  font-weight: bold;
 }
 
 #showrnd {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .yourNumber {
-    font-size: 24px;
-    font-weight: bold;
-    color: darkviolet;
-    margin-bottom: 10px;
-    text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: darkviolet;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 #input {
-    width: 207px;
-    padding: 15px 14px;
-    font-size: 24px;
-    color: darkviolet;
-    font-weight: bold;
-    margin-left: 150px;
+  width: 207px;
+  padding: 15px 14px;
+  font-size: 24px;
+  color: darkviolet;
+  font-weight: bold;
+  margin-left: 150px;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -95,25 +100,25 @@
 }
 
 /* Firefox */
-input[type=number] {
-    -moz-appearance: textfield;
+input[type="number"] {
+  -moz-appearance: textfield;
 }
 
 #input::placeholder {
-    opacity: 0.3;
-    font-size: 17px;
+  opacity: 0.3;
+  font-size: 17px;
 }
 
 .CounterDisplay {
-    font-size: large;
-    text-align: center;
+  font-size: large;
+  text-align: center;
 }
 
 .title {
-    text-align: center;
-    color: firebrick;
+  text-align: center;
+  color: firebrick;
 }
 
 #evaluate {
-    margin-left: 150px;
+  margin-left: 150px;
 }
