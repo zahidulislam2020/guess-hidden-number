@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .container {
   border: 2px solid blue;
   width: 560px;
@@ -90,6 +89,7 @@
   font-size: 24px;
   color: darkviolet;
   font-weight: bold;
+  margin-left: 15px;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -119,7 +119,7 @@ input[type="number"] {
   color: firebrick;
 }
 
-#evaluate, #input {
+#evaluate {
   margin-left: 130px;
 }
 
