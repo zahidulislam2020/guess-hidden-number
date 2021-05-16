@@ -44,11 +44,11 @@
 }
 
 .timeUp {
-  font-size: 40px;
+  font-size: 33px;
   color: red;
   position: absolute;
   top: 44%;
-  left: 70%;
+  left: 75%;
   font-weight: bold;
   display: none;
 }
@@ -89,7 +89,6 @@
   font-size: 24px;
   color: darkviolet;
   font-weight: bold;
-  margin-left: 105px;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -119,8 +118,8 @@ input[type="number"] {
   color: firebrick;
 }
 
-#evaluate {
-  margin-left: 105px;
+#evaluate, #input {
+  margin-left: 130px;
 }
 
 #evaluate, #playAgain, #startGame {
