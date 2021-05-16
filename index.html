@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess The Hidden Number</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Let's See How Powerful Your Thinking</h2>
+      <span>Random Number: Range (1 To 80)</span>
+      <div id="rndNum">00</div>
+      <button id="showrnd" type="button" onclick="show();" disabled>
+        Show
+      </button>
+      <span class="customTime">Timer: </span><input type="number" value='35' min="10" max="60" class="setTimer"></input>
+      <br /><br />
+      <div class="yourNumber">Your guessing number will be shown here</div>
+      <input
+        type="number"
+        id="input"
+        placeholder="Enter digit within 1 & 80"
+        autocomplete="off"
+      />
+      <br /><br />
+      <button
+        id="evaluate"
+        type="button"
+        tabindex="0"
+        onclick="inputValue();"
+        disabled
+      >
+        Evaluate
+      </button>
+      <button
+        id="playAgain"
+        type="button"
+        onclick="playAgain(); pageReload();"
+        disabled
+      >
+        Play Again
+      </button>
+      <button id="startGame" type="button" onclick="startGame();">
+        Start Game
+      </button>
+      <p id="displayComment"></p>
+      <p class="CounterDisplay">
+        You have only <span class="timeCount"></span> seconds to match the
+        correct number!
+      </p>
+      <span class="timeUp">Time Up!</span>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
