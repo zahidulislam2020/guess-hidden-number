@@ -59,7 +59,7 @@
   width: 510px;
   height: 60px;
   font-size: 20px;
-  padding: 10px;
+  /* padding: 10px; */
   text-align: center;
   line-height: 60px;
   margin: 15px auto;
@@ -84,12 +84,12 @@
 }
 
 #input {
-  width: 207px;
+  width: 262px;
   padding: 15px 14px;
   font-size: 24px;
   color: darkviolet;
   font-weight: bold;
-  margin-left: 150px;
+  margin-left: 105px;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -120,5 +120,9 @@ input[type="number"] {
 }
 
 #evaluate {
-  margin-left: 150px;
+  margin-left: 105px;
+}
+
+#evaluate, #playAgain, #startGame {
+    padding: 5px 10px;
 }
